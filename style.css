@@ -162,3 +162,14 @@ nav {
     background-color: transparent;
   }
 }
+.nav__logo .logo-white {
+  display: none;
+}
+
+.nav__logo .logo-dark {
+  display: flex;
+  max-width: 50px;
+}
+.nav__menu__btn {
+  display: none;
+}
