@@ -53,6 +53,7 @@
   font-family: "Poppins" sans-serif;
   color: white;
   background-color: var(--primary-color);
+  border-radius: 5px 20px 5px 20px;
   border: 2px solid var(--primary-color);
   transition: 0.3s;
   cursor: pointer;
