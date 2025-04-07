@@ -27,3 +27,7 @@
   font-weight: 800;
   color: var(--text-dark);
 }
+.section__header span {
+  position: relative;
+  isolation: isolate;
+}
