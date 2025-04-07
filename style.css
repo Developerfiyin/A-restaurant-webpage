@@ -130,3 +130,17 @@ nav {
   transition: transform 0.5s;
   z-index: -1;
 }
+
+.nav__links.open {
+  transform: translateY(100%);
+}
+
+.nav__links a {
+  font-weight: 500;
+  color: white;
+  white-space: nowrap;
+}
+
+.nav__btns {
+  display: none;
+}
