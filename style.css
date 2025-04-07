@@ -102,3 +102,7 @@ nav {
   justify-content: space-between;
   background-color: var(--primary-color);
 }
+
+.nav__logo .logo-dark {
+  display: none;
+}
