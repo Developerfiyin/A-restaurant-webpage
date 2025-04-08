@@ -193,3 +193,12 @@ nav {
   justify-content: flex-end;
   gap: 1rem;
 }
+
+.nav__btns .btn {
+  padding: 4px 10px;
+  font-size: 1.5rem;
+  color: var(--text-dark);
+  background-color: transparent;
+  border-radius: 100%;
+  border: none;
+}
