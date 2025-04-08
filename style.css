@@ -144,6 +144,20 @@ nav {
 .nav__btns {
   display: none;
 }
+.header__container {
+  display: grid;
+  gap: 4rem 2rem;
+}
+
+.header__image .image {
+  margin-bottom: 2rem;
+  padding-bottom: 4rem;
+  margin-inline: auto;
+  max-width: 450px;
+  padding-inline: 1rem;
+  position: relative;
+  isolation: isolate;
+}
 
 @media (width > 768px) {
   nav {
