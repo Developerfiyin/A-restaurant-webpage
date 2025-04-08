@@ -176,7 +176,7 @@ nav {
 .nav__links {
   position: static;
   width: fit-content;
-  padding-left: 0;
+  padding: 0;
   flex-direction: row;
   background-color: transparent;
   transform: none !important;
@@ -186,4 +186,10 @@ nav {
 }
 .nav__links a:hover {
   color: var(--primary-color-dark);
+}
+.nav__btns {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
 }
