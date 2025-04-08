@@ -202,3 +202,7 @@ nav {
   border-radius: 100%;
   border: none;
 }
+
+.nav__btns .btn:hover {
+  box-shadow: 0 0 20px rgba(249, 85, 85, 0.3);
+}
