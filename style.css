@@ -220,6 +220,11 @@ nav {
   background-color: var(--primary-color);
 }
 
+.header__top img {
+  max-width: 30px;
+  transform: rotate(-90deg);
+  transform-origin: center center;
+}
 @media (width > 768px) {
   nav {
     position: static;
