@@ -295,6 +295,17 @@ nav {
   z-index: -1;
   transition: 0.3s;
 }
+.header__card::before {
+  bottom: 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.header__card::after {
+  bottom: 50%;
+  border-radius: 10px 10px 0 0;
+  border-bottom: none;
+  transform: translateY(50%) skewY(-10deg);
+}
 
 @media (width > 768px) {
   nav {
