@@ -253,6 +253,15 @@ nav {
   line-height: 1.75rem;
 }
 
+.header__btns {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
