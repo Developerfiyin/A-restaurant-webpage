@@ -225,6 +225,12 @@ nav {
   transform: rotate(-90deg);
   transform-origin: center center;
 }
+.header__top h2 {
+  padding-inline: 1rem 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
 @media (width > 768px) {
   nav {
     position: static;
