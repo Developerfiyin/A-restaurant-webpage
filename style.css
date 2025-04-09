@@ -307,6 +307,17 @@ nav {
   transform: translateY(50%) skewY(-10deg);
 }
 
+.header__card:hover::after,
+.header__card:hover:before {
+  border-color: var(--primary-color);
+}
+
+.header__card img {
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  max-width: 70px;
+  border-radius: 100%;
+}
 @media (width > 768px) {
   nav {
     position: static;
