@@ -298,6 +298,7 @@ nav {
 .header__card::before {
   bottom: 0;
   border-radius: 0 0 10px 10px;
+  border-top: none;
 }
 
 .header__card::after {
@@ -308,7 +309,7 @@ nav {
 }
 
 .header__card:hover::after,
-.header__card:hover:before {
+.header__card:hover::before {
   border-color: var(--primary-color);
 }
 
