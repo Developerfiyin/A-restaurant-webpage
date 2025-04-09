@@ -277,6 +277,14 @@ nav {
   gap: 1rem;
   flex-wrap: wrap;
 }
+
+.header__card {
+  position: relative;
+  flex: 1;
+  padding: 1rem;
+  isolation: isolate;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
