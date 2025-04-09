@@ -179,6 +179,22 @@ nav {
   border-radius: 4rem 4rem 0 0;
   transform: translateY(50%) skewY(-20deg);
 }
+
+.header__image__footer {
+  margin-inline: auto;
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header__image__footer img {
+  max-width: 70px;
+  border-radius: 100%;
+  border: 8px solid white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
 @media (width > 768px) {
   nav {
     position: static;
