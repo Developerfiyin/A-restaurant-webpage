@@ -149,7 +149,7 @@ nav {
   gap: 4rem 2rem;
 }
 
-.header__image.image {
+.header__image .image {
   margin-bottom: 2rem;
   padding-bottom: 4rem;
   margin-inline: auto;
@@ -191,7 +191,7 @@ nav {
 .header__image__footer img {
   max-width: 70px;
   border-radius: 100%;
-  border: 8px solid white;
+  border: 8px solid var(--white);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
