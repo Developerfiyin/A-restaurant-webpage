@@ -229,8 +229,17 @@ nav {
   padding-inline: 1rem 2rem;
   font-weight: 600;
   color: var(--text-dark);
+  font-size: 1rem;
 }
 
+.header__content h1 {
+  margin-bottom: 2rem;
+  font-size: 5.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 7rem;
+  text-align: center;
+}
 @media (width > 768px) {
   nav {
     position: static;
