@@ -397,3 +397,12 @@ nav {
 .header__top {
   margin-inline-start: unset;
 }
+
+.header__container :is(h1, p) {
+  text-align: left;
+}
+
+.header__btns,
+.header__flex {
+  justify-content: flex-start;
+}
