@@ -261,6 +261,14 @@ nav {
   gap: 1rem;
   flex-wrap: wrap;
 }
+.header__btns .btn:nth-child(2) {
+  color: var(--primary-color);
+  background-color: transparent;
+}
+
+.header__btns .btn:nth-child(2):hover {
+  color: var(--primary-color);
+}
 
 @media (width > 768px) {
   nav {
