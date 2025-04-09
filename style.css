@@ -390,3 +390,9 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
+.header__content {
+  grid-area: 1/1/2/2;
+}
+.header__top {
+  margin-inline-start: unset;
+}
