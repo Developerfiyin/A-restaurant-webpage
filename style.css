@@ -385,3 +385,8 @@ nav {
 .nav__btns .btn:hover {
   box-shadow: 0 0 20px rgba(249, 85, 85, 0.3);
 }
+.header__container {
+  padding-top: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
