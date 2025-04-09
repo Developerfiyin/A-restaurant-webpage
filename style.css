@@ -202,6 +202,18 @@ nav {
   color: var(--text-light);
   border-left: 2px solid var(--primary-color);
 }
+.header__top {
+  margin-bottom: 2rem;
+  max-width: fit-content;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  background-color: rgba(249, 85, 85, 0.1);
+  border-radius: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
