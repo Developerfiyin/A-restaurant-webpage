@@ -364,6 +364,12 @@ nav {
   box-shadow: 0 0 30px rgba(249, 85, 85, 0.4);
 }
 
+.menu__card h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
