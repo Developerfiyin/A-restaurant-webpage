@@ -337,6 +337,14 @@ nav {
   gap: 2rem;
 }
 
+.menu__card {
+  padding: 2rem;
+  padding-top: 0;
+  text-align: center;
+  background-color: var(--white);
+  border-radius: 10rem 8rem 2rem 2rem;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
