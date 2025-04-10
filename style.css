@@ -325,6 +325,12 @@ nav {
   text-align: center;
   color: var(--primary-color);
 }
+
+.menu__container .section__container {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
