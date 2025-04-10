@@ -331,6 +331,12 @@ nav {
   text-align: center;
 }
 
+.menu__grid {
+  margin-bottom: 4rem;
+  display: grid;
+  gap: 2rem;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
