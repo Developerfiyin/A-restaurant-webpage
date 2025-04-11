@@ -392,6 +392,10 @@ nav {
   border-color: var(--light);
 }
 
+.menu__card__footer .btn:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
 @media (width > 768px) {
   nav {
     position: static;
