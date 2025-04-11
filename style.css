@@ -374,13 +374,24 @@ nav {
 .menu__card p {
   margin-bottom: 2rem;
   font-weight: 500;
+  color: var(--text-light);
 }
 
 .menu__card__footer {
   display: flex;
   align-items: center;
-  color: var(--text-light);
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
+
+.menu__card__footer .btn {
+  font-weight: 600;
+  background-color: transparent;
+  color: var(--text-dark);
+  border-color: var(--light);
+}
+
 @media (width > 768px) {
   nav {
     position: static;
