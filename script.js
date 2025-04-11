@@ -57,3 +57,13 @@ ScrollReveal().reveal(".header__image__footer", {
   ...scrollRevealOption,
   delay: 4000,
 });
+
+ScrollReveal().reveal(".menu__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
+
+ScrollReveal().reveal(".menu__btn", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
