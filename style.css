@@ -396,6 +396,16 @@ nav {
   color: var(--primary-color);
   border-color: var(--primary-color);
 }
+
+.menu__btn {
+  text-align: center;
+}
+
+@media (width > 540px) {
+  .menu__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media (width > 768px) {
   nav {
     position: static;
