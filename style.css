@@ -406,6 +406,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media (width > 768px) {
   nav {
     position: static;
@@ -486,4 +487,8 @@ nav {
 .header__btns,
 .header__flex {
   justify-content: flex-start;
+}
+
+.menu__grid {
+  grid-template-columns: repeat(3, 1fr);
 }
