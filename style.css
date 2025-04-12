@@ -476,6 +476,9 @@ nav {
   font-weight: 500;
   color: var(--text-dark);
 }
+.service__card a:hover {
+  color: var(--primary-color);
+}
 
 @media (width > 540px) {
   .menu__grid {
