@@ -443,6 +443,18 @@ nav {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
 }
 
+.service__card div {
+  max-width: 200px;
+  aspect-ratio: 1;
+  display: grid;
+  place-content: center;
+  margin-inline: auto;
+  background-color: var(--white);
+  border-radius: 100%;
+  transform: translateY(-2rem);
+  border: 1rem solid var(--extra-light);
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
