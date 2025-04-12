@@ -401,6 +401,13 @@ nav {
   text-align: center;
 }
 
+.service {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background-color: var(--extra-light);
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
