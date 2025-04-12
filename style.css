@@ -455,6 +455,17 @@ nav {
   border: 1rem solid var(--extra-light);
 }
 
+.service__card img {
+  max-width: 100px;
+}
+
+.service__card h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
