@@ -471,6 +471,12 @@ nav {
   font-weight: 500;
   color: var(--text-light);
 }
+.service__card a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
