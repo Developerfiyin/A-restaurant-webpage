@@ -429,6 +429,20 @@ nav {
   gap: 2rem;
 }
 
+.service__card {
+  padding: 2rem;
+  padding-top: 0;
+  text-align: center;
+  background-color: var(--white);
+  border-radius: 10rem 8rem 5rem 5rem;
+  transition: 0.3s;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
+}
+
+.service__card:hover {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
