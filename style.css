@@ -575,6 +575,7 @@ nav {
 .menu__grid {
   grid-template-columns: repeat(3, 1fr);
 }
+
 .service__grid {
   grid-template-columns: repeat(3, 1fr);
 }
