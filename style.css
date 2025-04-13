@@ -494,6 +494,14 @@ nav {
   border-radius: 5rem 2rem 5rem 2rem;
   box-shadow: 0 0 40px rgba(249, 85, 85, 0.3);
 }
+
+.banner__content .section__header {
+  margin-bottom: 2rem;
+}
+
+.banner__content p {
+  margin-bottom: 2rem;
+}
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
