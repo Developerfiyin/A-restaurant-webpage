@@ -605,3 +605,11 @@ nav {
 .service__grid {
   grid-template-columns: repeat(3, 1fr);
 }
+
+.banner__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+. .banner__content {
+  grid-area: 1/1/2/2;
+}
