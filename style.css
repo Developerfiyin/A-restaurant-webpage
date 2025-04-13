@@ -487,6 +487,13 @@ nav {
   gap: 2rem;
   overflow: hidden;
 }
+
+.banner__image {
+  max-width: 500px;
+  margin-inline: auto;
+  border-radius: 5rem 2rem 5rem 2rem;
+  box-shadow: 0 0 40px rgba(249, 85, 85, 0.3);
+}
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
