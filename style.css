@@ -479,7 +479,14 @@ nav {
 .service__card a:hover {
   color: var(--primary-color);
 }
-
+.banner {
+  background-color: var(--extra-light);
+}
+.banner__container {
+  display: grid;
+  gap: 2rem;
+  overflow: hidden;
+}
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
