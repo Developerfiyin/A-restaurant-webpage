@@ -326,7 +326,7 @@ nav {
   color: var(--primary-color);
 }
 
-.menu__container .section__container {
+.menu__container .section__header {
   margin-bottom: 4rem;
   text-align: center;
 }
