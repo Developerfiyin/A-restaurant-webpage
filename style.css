@@ -342,7 +342,7 @@ nav {
   padding-top: 0;
   text-align: center;
   background-color: var(--white);
-  border-radius: 10rem 8rem 2rem 2rem;
+  border-radius: 10rem 8rem 5rem 5rem;
   transition: 0.3s;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
 }
@@ -610,6 +610,6 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
-. .banner__content {
+.banner__content {
   grid-area: 1/1/2/2;
 }
