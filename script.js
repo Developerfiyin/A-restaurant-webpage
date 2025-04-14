@@ -72,3 +72,13 @@ ScrollReveal().reveal(".service__card", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+ScrollReveal().reveal(".banner__image img", {
+  ...scrollRevealOption,
+  origin: right,
+});
+
+ScrollReveal().reveal(".banner__comtent .section__header", {
+  ...scrollRevealOption,
+  delay: 500,
+});
