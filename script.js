@@ -82,3 +82,12 @@ ScrollReveal().reveal(".banner__comtent .section__header", {
   ...scrollRevealOption,
   delay: 500,
 });
+ScrollReveal().reveal(".banner__content p", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal(".banner__btn", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
