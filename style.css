@@ -537,6 +537,10 @@ nav {
   overflow: hidden;
 }
 
+.swiper {
+  padding-top: 4rem;
+  width: 100%;
+}
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
