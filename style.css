@@ -541,6 +541,12 @@ nav {
   padding-top: 4rem;
   width: 100%;
 }
+.customer__card {
+  padding: 1rem;
+  border: 2px solid var(--light);
+  border-radius: 1rem;
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
