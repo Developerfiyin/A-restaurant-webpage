@@ -563,6 +563,12 @@ nav {
   border-radius: 1rem;
 }
 
+.customer__card__header span {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
