@@ -577,6 +577,12 @@ nav {
   font-style: italic;
 }
 
+.customer__card__footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
