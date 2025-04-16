@@ -583,6 +583,10 @@ nav {
   gap: 1rem;
 }
 
+.customer__card__footer img {
+  max-width: 75px;
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
