@@ -516,6 +516,16 @@ nav {
   isolation: isolate;
 }
 
+.customer__image::before {
+  position: absolute;
+  content: "";
+  height: 75%;
+  width: 75%;
+  left: 0;
+  bottom: 0;
+  border-radius: 2rem;
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
