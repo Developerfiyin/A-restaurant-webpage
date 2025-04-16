@@ -547,6 +547,13 @@ nav {
   border-radius: 1rem;
 }
 
+.customer__card__header {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
