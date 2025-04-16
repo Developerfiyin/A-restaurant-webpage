@@ -533,6 +533,10 @@ nav {
   margin-inline: auto;
 }
 
+.customer__content {
+  overflow: hidden;
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
