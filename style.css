@@ -554,6 +554,15 @@ nav {
   justify-content: space-between;
 }
 
+.customer__card__header div {
+  padding: 2px 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #20604e;
+  background-color: #ecfdf5;
+  border-radius: 1rem;
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
