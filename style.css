@@ -511,6 +511,11 @@ nav {
   gap: 2rem;
 }
 
+.customer__image {
+  position: relative;
+  isolation: isolate;
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
