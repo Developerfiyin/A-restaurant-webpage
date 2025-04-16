@@ -506,6 +506,11 @@ nav {
   line-height: 1.75rem;
 }
 
+.customer__container {
+  display: grid;
+  gap: 2rem;
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
