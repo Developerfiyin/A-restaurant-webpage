@@ -528,6 +528,11 @@ nav {
   z-index: -1;
 }
 
+.customer__image img {
+  max-width: 550px;
+  margin-inline: auto;
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
