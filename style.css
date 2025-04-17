@@ -646,6 +646,12 @@ nav {
   margin-bottom: 1rem;
   max-width: 50px;
 }
+.footer__col p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  color: var(--text-light);
+}
 
 @media (width > 540px) {
   .menu__grid {
