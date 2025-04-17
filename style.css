@@ -670,6 +670,12 @@ nav {
 .footer__links a:hover {
   color: var(--primary-color);
 }
+.footer__bar {
+  padding: 1rem;
+  color: var(--text-light);
+  text-align: center;
+  border-top: 2px solid rgba(249, 85, 85, 0.2);
+}
 
 @media (width > 540px) {
   .menu__grid {
