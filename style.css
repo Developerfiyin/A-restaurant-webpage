@@ -594,6 +594,12 @@ nav {
   border-left: 2px solid var(--primary-color);
 }
 
+.customer__card__footer h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
