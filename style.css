@@ -664,6 +664,9 @@ nav {
   gap: 1rem;
 }
 
+.footer__links:hover {
+  color: var(--primary-color);
+}
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
