@@ -623,6 +623,14 @@ nav {
   justify-content: space-between;
 }
 
+.customer__swiper__controls .btn {
+  padding: 5px;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: var(--text-dark);
+  border-color: var(--light);
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
