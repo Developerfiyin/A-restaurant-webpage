@@ -589,6 +589,10 @@ nav {
   border: 8px solid var(--white);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
+.customer__card__footer > div {
+  padding-left: 1rem;
+  border-left: 2px solid var(--primary-color);
+}
 
 @media (width > 540px) {
   .menu__grid {
