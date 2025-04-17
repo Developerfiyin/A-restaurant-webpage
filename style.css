@@ -631,6 +631,12 @@ nav {
   border-color: var(--light);
 }
 
+.customer__swiper__controls .btn:hover {
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
