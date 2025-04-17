@@ -642,6 +642,11 @@ nav {
   gap: 4rem 2rem;
 }
 
+.footer__logo img {
+  margin-bottom: 1rem;
+  max-width: 50px;
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
