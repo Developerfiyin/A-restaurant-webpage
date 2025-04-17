@@ -775,4 +775,9 @@ nav {
   .banner__content {
     grid-area: 1/1/2/2;
   }
+
+  .customer__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
 }
