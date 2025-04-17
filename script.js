@@ -75,7 +75,7 @@ ScrollReveal().reveal(".service__card", {
 
 ScrollReveal().reveal(".banner__image img", {
   ...scrollRevealOption,
-  origin: right,
+  origin: "right",
 });
 
 ScrollReveal().reveal(".banner__comtent .section__header", {
@@ -94,5 +94,13 @@ ScrollReveal().reveal(".banner__btn", {
 
 ScrollReveal().reveal(".customer__image img", {
   ...scrollRevealOption,
-  origin: left,
+  origin: "left",
+});
+
+const swiper = new Swiper(".swiper", {
+  loop: true,
+  navigaton: {
+    nextEl: ".swiper-next",
+    prevEl: ".swiper-prev",
+  },
 });
