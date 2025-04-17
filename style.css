@@ -685,6 +685,9 @@ nav {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (width > 768px) {
@@ -792,6 +795,13 @@ nav {
 
   .customer__card {
     padding: 1.5rem;
+  }
+  .footer__container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .footer__col:nth-child(1) {
+    grid-column: 1/3;
   }
 }
 
