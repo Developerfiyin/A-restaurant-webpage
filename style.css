@@ -606,6 +606,11 @@ nav {
   color: var(--text-light);
 }
 
+.customer__rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
