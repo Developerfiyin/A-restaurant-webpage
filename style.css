@@ -663,8 +663,11 @@ nav {
   display: grid;
   gap: 1rem;
 }
-
-.footer__links:hover {
+.footer__links a {
+  font-weight: 500;
+  color: var(--text-light);
+}
+.footer__links a:hover {
   color: var(--primary-color);
 }
 
