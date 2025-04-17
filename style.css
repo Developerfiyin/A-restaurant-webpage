@@ -659,6 +659,11 @@ nav {
   color: var(--text-dark);
 }
 
+.footer__links {
+  display: grid;
+  gap: 1rem;
+}
+
 @media (width > 540px) {
   .menu__grid {
     grid-template-columns: repeat(2, 1fr);
