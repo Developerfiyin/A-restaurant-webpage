@@ -584,7 +584,10 @@ nav {
 }
 
 .customer__card__footer img {
-  max-width: 75px;
+  max-width: 70px;
+  border-radius: 100%;
+  border: 8px solid var(--white);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 @media (width > 540px) {
